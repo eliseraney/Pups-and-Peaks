@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #6f6f8e;
+  --secondary-color: #f4cd76;
+  --accent-color: #43315d;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-item .active {
+  color: #fff !important;
+}
+
+a,
+.nav-link {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+:hover.nav-link {
+  color: white;
+}
